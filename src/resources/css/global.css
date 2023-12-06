@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+.container-fluid {
+  padding: 0 20px;
+}
+.container {
+  max-width: 1440px;
+  margin: 100px auto;
+}
+.content {
+  margin: 100px auto 100px !important;
+}
+
+.form-wrapper {
+  margin-top: 130px;
+  margin-bottom: 200px;
+}
+.form-wrapper .form {
+  width: 500px;
+}
+.form-wrapper .form button {
+  border-radius: 999px;
+}
+.form-message {
+  font-size: 13px;
+}
+a {
+  cursor: pointer !important;
+}
+
+.two-line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 42px;
+  cursor: pointer;
+}
+.one-line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 20px;
+  cursor: pointer;
+}
+.fs-6 {
+  font-size: .8rem;
+}
+.header {
+  z-index: 1000;
+}
+.tab-mobile {
+  display: block;
+  border-radius: 6px;
+  text-decoration: none;
+  padding: 5px 8px;
+  border-right: 1px solid #ccc;
+  margin-top: 20px;
+}
+.tab-mobile:nth-child(n+2) {
+  border-radius: unset;
+}
+.tab-mobile:last-child() {
+  border-right: 1px solid transparent;
+}
+
+.product-image {
+  overflow: hidden;
+}
+
+.product-image:hover img {
+  transform: scale(1.3) rotate(5deg);
+  transition: all .8s ease;
+}
+
+.footer {
+  margin: unset auto !important;
+}
+
+.border-bottom {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.border-bottom-nopad {
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-item img {
+  width: 110px;
+  height: 124px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.cart-remove-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  display: inline-block;
+}
+.cart-remove-btn:hover {
+  background-color: #f8f8f8;
+}
+
+.form-select {
+  height: 40px;
+}
